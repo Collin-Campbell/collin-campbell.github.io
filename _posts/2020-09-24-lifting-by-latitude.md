@@ -8,9 +8,11 @@ share-img: /assets/img/Unknown.png
 tags: [Powerlifting, gravity]
 ---
 
+<img align="left" src="/assets/img/istockphoto-841956772-170667a.jpg"> The surface of the Earth at the equator spins roughly 1,000 miles per hour.  As a result, fffffffff
+
 
 ![Hercules](/assets/img/istockphoto-841956772-170667a.jpg){: .image-left } ## Did you know?
-The surface of the Earth at the equator spins roughly 1,000 miles per hour.  As a result,  
+  
 
 
 ![Cleaned Data](/assets/img/Screen Shot 2020-09-24 at 7.17.18 PM.png){:class="img-responsive"}
