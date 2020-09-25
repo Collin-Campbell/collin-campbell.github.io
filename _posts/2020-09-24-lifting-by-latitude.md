@@ -8,11 +8,13 @@ share-img: /assets/img/Unknown.png
 tags: [Powerlifting, gravity]
 ---
 
+
 ### Did you know?
 
 <img align="left" style="float:left; padding-right:10px" src="/assets/img/istockphoto-841956772-170667a.jpg"> The surface of the Earth at the equator spins roughly *1,000 miles per hour*.  As a result of this insane rotation, Earth actually bulges out at the equator, forming an oblate spheroid rather than a sphere.  Meaning, the diameter around the equator is larger than the diameter connecting the poles.  And so, a person standing on the surface at the equator, being further from the center of the Earth than a person standing on the surface at the poles, experiences less gravity (approximately 0.5% less gravity, in fact).  With this is mind, I sought out to determine whether or not powerlifters benefit from this information.  **Are powerlifters able to lift more weight (and score higher) at locations closer to the Equator?  Is there a correlation between lower latitudes (closer to the Equator) and higher scores in competition?**  
 
-### Powerlifting: a very brief history
+
+### Powerlifting, a quick overview
 
 Powerlifting began all the way back in Ancient China and Greece, where men would lift stones to display their strength and see who could lift the most.  At the time and up through the 1950s, powerlifting was akin to the strongman competition today, meaning it involved various "odd lifts" for competition.  Eventually, the sport evolved and the lifts became standardized to the current three:  squat, bench press, and deadllift.  
 
@@ -23,7 +25,8 @@ As the sport grew and became more inclusive, it became apparent that who could s
 
 ![Wilks](/assets/img/Screen Shot 2020-09-25 at 9.47.51 AM.png){:class="img-responsive"}
 
-### The Data
+
+### The process
 
 I was able to source my data from [Kaggle](https://www.kaggle.com/open-powerlifting/powerlifting-database).  The
 
@@ -40,5 +43,8 @@ I was able to source my data from [Kaggle](https://www.kaggle.com/open-powerlift
 ![Line Graph](/assets/img/Averages.png){:class="img-responsive"}
 
 
+### My shortcomings
+
+[Robert Frederick](http://www.strongur.io/can-we-do-better-than-wilks-absolutely/)
 
 ![Lifter](/assets/img/CC0_Photos_Fitness_Free_Images_Free_Photos_Gym_High_Resolution_Royalty_Free_Weightlifter-1617119.jpg!d.jpg){:class="img-responsive"}
