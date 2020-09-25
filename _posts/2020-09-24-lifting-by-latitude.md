@@ -8,7 +8,7 @@ share-img: /assets/img/Unknown.png
 tags: [Powerlifting, gravity]
 ---
 
-<img align="left" style="float:left; padding-right:10px" src="/assets/img/istockphoto-841956772-170667a.jpg"> The surface of the Earth at the equator spins roughly 1,000 miles per hour.  As a result of this insane rotation, Earth actually bulges out at the equator, forming an oblate spheroid rather than simply a sphere.  This also means that the diameter around the equator is larger than the diameter connecting the poles.  And so, a person standing on the surface at the equator, being further from the center of the Earth than a person standing on the surface at the poles, experiences less gravity (approximately 0.5% less, in fact!). 
+<img align="left" style="float:left; padding-right:10px" src="/assets/img/istockphoto-841956772-170667a.jpg"> The surface of the Earth at the equator spins roughly 1,000 miles per hour.  As a result of this insane rotation, Earth actually bulges out at the equator, forming an oblate spheroid rather than simply a sphere.  This also means that the diameter around the equator is larger than the diameter connecting the poles.  And so, a person standing on the surface at the equator, being further from the center of the Earth than a person standing on the surface at the poles, experiences less gravity (approximately 0.5% less gravity, in fact).  With this is mind, sought out to determine whether or not powerlifters benefit from this information.  Meaning, are powerlifters able to lift more weight (and score higher) at locations closer to the Equator?  Is there a correlation between lower latitudes (closer to the Equator) and higher scores?  
 
 
 
