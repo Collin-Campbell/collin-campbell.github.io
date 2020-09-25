@@ -8,20 +8,21 @@ share-img: /assets/img/Unknown.png
 tags: [Powerlifting, gravity]
 ---
 <div align="right">## Did you know?
+  
 <img align="left" src="/assets/img/istockphoto-841956772-170667a.jpg"> The surface of the Earth at the equator spins roughly 1,000 miles per hour.  As a result, fffffffff
 
-
-![Hercules](/assets/img/istockphoto-841956772-170667a.jpg){: .image-left } 
-  
 
 
 ![Cleaned Data](/assets/img/Screen Shot 2020-09-24 at 7.17.18 PM.png){:class="img-responsive"}
 
 
+
 ![Scatterplot](/assets/img/All_Datapoints.png){:class="img-responsive"}
 
 
+
 ![Line Graph](/assets/img/Averages.png){:class="img-responsive"}
+
 
 
 ![Lifter](/assets/img/CC0_Photos_Fitness_Free_Images_Free_Photos_Gym_High_Resolution_Royalty_Free_Weightlifter-1617119.jpg!d.jpg){:class="img-responsive"}
