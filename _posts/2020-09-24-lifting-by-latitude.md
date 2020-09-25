@@ -8,7 +8,7 @@ share-img: /assets/img/Unknown.png
 tags: [Powerlifting, gravity]
 ---
 
-![Hercules](/assets/img/istockphoto-841956772-170667a.jpg){:class="img-responsive"}
+![Hercules](/assets/img/istockphoto-841956772-170667a.jpg){: .image-left } Your Text comes here...
 
 
 ![Cleaned Data](/assets/img/Screen Shot 2020-09-24 at 7.17.18 PM.png){:class="img-responsive"}
