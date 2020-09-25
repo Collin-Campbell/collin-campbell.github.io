@@ -8,6 +8,7 @@ share-img: /assets/img/Unknown.png
 tags: [Powerlifting, gravity]
 ---
 
+![Hercules](/assets/img/istockphoto-841956772-170667a.jpg){:class="img-responsive"}
 
 
 ![Cleaned Data](/assets/img/Screen Shot 2020-09-24 at 7.17.18 PM.png){:class="img-responsive"}
@@ -17,3 +18,6 @@ tags: [Powerlifting, gravity]
 
 
 ![Line Graph](/assets/img/Averages.png){:class="img-responsive"}
+
+
+![Lifter](/assets/img/CC0_Photos_Fitness_Free_Images_Free_Photos_Gym_High_Resolution_Royalty_Free_Weightlifter-1617119.jpg!d.jpg){:class="img-responsive"}
