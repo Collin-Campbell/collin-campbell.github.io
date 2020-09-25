@@ -30,13 +30,20 @@ As the sport grew and became more inclusive, it became apparent that who could s
 
 I was able to source my original data from [Kaggle](https://www.kaggle.com/open-powerlifting/powerlifting-database).  This powerlifting database, maintained by the OpenPowerlifting project which aims to create an open archive of the world's powerlifting data, contains data from over 22,000 meets and 412,000 lifters from competitions worldwide.  Because the Wilks formula makes use of the total weight lifted, I removed lifters that did not perform all three of the standardized lifts (squat, bench press and deadlift).  I also only accounted for lifters that performed un-equipped or 'raw' lifts, simply to maintain consistency.  A few rows of my cleaned data can be seen below:  
 
-
 ![Cleaned Data](/assets/img/Screen Shot 2020-09-25 at 10.12.40 AM.png){:class="img-responsive"}
 
+In order to determine the latitude of each meet location, as can be seen in the two columns on the right, I manually looked up latitudes for 116 country states, rounded these values to the nearest whole integer, and then created a function that would add them to all 273,373 rows in my cleaned dataframe.  I then calculated the correlation coefficient between the values for Latitude (in degrees) and the Wilks scores.  With Wilks on the y-axis and Latitude on the x-axis, a negative linear correlation would be indicative of a decreasing Wilks score with increasing latitude.  My calculated correlation coefficient was -0.044, suggesting a very weak negative linear relationship.  Because this value is within -0.1 to 0.1, I cannot significantly say there is a linear relationship present between the two variables.  
+
+But, maybe there is some bias present in my data.  According to [Robert Frederick](http://www.strongur.io/can-we-do-better-than-wilks-absolutely/) in his blog post, the Wilks scoring system, although partially successful, still seems to favor absolute strength.  In order to account for any gender or age bias, I isolated my data based on the most prevalent gender and age class (Males aged 24-34 years old) in the dataset.  To account for any bias between the northern and southern hemispheres due to Earth's tilt, I took it a step further and isolated my data by the most prevalent hemisphere (North).  My newly calculated correlation coefficients were as follows:
+
+- Only Males:  -0.054
+- Only Males aged 24-34 years old:  -0.019
+- Only Males aged 24-34 years old in the Northern Hemisphere:  -0.027
+
+Although negative, the values are not significant enough to clearly say that powerlifters receive an advantage for competing closer to the equator.  
 
 
 ![Scatterplot](/assets/img/All_Datapoints.png){:class="img-responsive"}
-
 
 
 ![Line Graph](/assets/img/Averages.png){:class="img-responsive"}
@@ -44,6 +51,10 @@ I was able to source my original data from [Kaggle](https://www.kaggle.com/open-
 
 ### My shortcomings
 
-[Robert Frederick](http://www.strongur.io/can-we-do-better-than-wilks-absolutely/)
+- Did not account for changes in elevation
+- Rounding latitude values weakened data accuracy
+- Spread of latitude values not great, and concentrated
+- Wilks bias
+
 
 ![Lifter](/assets/img/CC0_Photos_Fitness_Free_Images_Free_Photos_Gym_High_Resolution_Royalty_Free_Weightlifter-1617119.jpg!d.jpg){:class="img-responsive"}
