@@ -57,4 +57,6 @@ Although negative, the values are not significant enough to clearly say that pow
 - Wilks bias
 
 
+Link to my work [here](https://github.com/Collin-Campbell/BuildWeek1/blob/master/Collin_BuildWeek_Unit1.ipynb)
+
 ![Lifter](/assets/img/CC0_Photos_Fitness_Free_Images_Free_Photos_Gym_High_Resolution_Royalty_Free_Weightlifter-1617119.jpg!d.jpg){:class="img-responsive"}
