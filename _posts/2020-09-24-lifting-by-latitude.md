@@ -28,8 +28,7 @@ As the sport grew and became more inclusive, it became apparent that who could s
 
 ### The process
 
-I was able to source my data from [Kaggle](https://www.kaggle.com/open-powerlifting/powerlifting-database).  The
-
+I was able to source my original data from [Kaggle](https://www.kaggle.com/open-powerlifting/powerlifting-database).  This powerlifting database, maintained by the OpenPowerlifting project which aims to create an open archive of the world's powerlifting data, contains data from over 22,000 meets and 412,000 lifters from competitions worldwide.  Because the Wilks formula makes use of the total weight lifted, I removed lifters that did not perform all three of the standardized lifts (squat, bench press and deadlift).  I also only accounted for lifters that performed un-equipped or 'raw' lifts, simply to maintain consistency.  A few rows of my cleaned data can be seen below:  
 
 
 ![Cleaned Data](/assets/img/Screen Shot 2020-09-24 at 7.17.18 PM.png){:class="img-responsive"}
