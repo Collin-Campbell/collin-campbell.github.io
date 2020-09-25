@@ -7,3 +7,13 @@ thumbnail-img: /assets/img/Lasha_Talakhadze_Rio_2016.jpg
 share-img: /assets/img/Unknown.png
 tags: [Powerlifting, gravity]
 ---
+
+
+
+![Cleaned Data](/assets/img/Screen Shot 2020-09-24 at 7.17.18 PM.png){:class="img-responsive"}
+
+
+![Scatterplot](/assets/img/All_Datapoints.png){:class="img-responsive"}
+
+
+![Line Graph](/assets/img/Averages.png){:class="img-responsive"}
