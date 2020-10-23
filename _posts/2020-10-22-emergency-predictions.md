@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Powerlifting... with some latitude!
-subtitle: Are abnormal daily percentage changes indicative of disaster?
+title: Was there a major disaster today? Well, let me check my stocks..
+subtitle: Are abnormal daily percentage changes of certain stocks and precious metals indicative of a federally declared disaster?
 cover-img: /assets/img/ship.jpg
 thumbnail-img: /assets/img/stocks.jpg
 share-img: /assets/img/stocks.jpg
