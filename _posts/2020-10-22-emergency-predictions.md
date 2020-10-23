@@ -39,24 +39,45 @@ From each of these datasets, I engineered a new feature for the daily percentage
 
 ### My baseline:
 
+Baseline Accuracy: 0.7701062215477997
+
 ![baseline](/assets/img/Baseline.png){:class="img-responsive"}
 
 
-### 
+### Building the models:
+
+XGB_model = XGBClassifier(random_state=42, n_jobs=-1, 
+                          n_estimators=400, max_depth=3)
+
+Logistic_Regression_model = LogisticRegression()
+
+Random_Forest_model = RandomForestClassifier(n_estimators=400,
+                            random_state=42, max_depth=12)
 
 
-![Scatterplot](/assets/img/All_Datapoints.png){:class="img-responsive"}
+### How they performed:
+
+The XGB boost model was best fitting, but the Random Forest model scored the highest accuracy on the testing data.  With that being said, all models failed to show any significant improvement above baseline.
+
+![accuracy scores](/assets/img/scores.png){:class="img-responsive"}
 
 
-![Line Graph](/assets/img/Averages.png){:class="img-responsive"}
+### Conclusion:
+
+![permutation importances](/assets/img/Perm_imp.png){:class="img-responsive"}
+
+![PDP feature](/assets/img/PDP_feature.png){:class="img-responsive"}
+
+![PDP interact](/assets/img/PDP_interact.png){:class="img-responsive"}
 
 
 ### My shortcomings
 
-- Did not account for changes in elevation
-- Rounding latitude values weakened data accuracy
-- Spread of latitude values not great, and concentrated
-- Wilks bias
+- Models were not useful.  As can be seen in the confusion matrix, the Random Forest model was unable to correctly identify true emergencies. 
+
+![confusion matrix](/assets/img/Conf_mat.png){:class="img-responsive"}
+
+- The major fault in my reasoning:  the time at which an emergency is declared depends on when the local government applies for assistance.  Meaning, the declaration could occur days/weeks after the actual catastrophic event.
 
 
 Link to my work [here](https://github.com/Collin-Campbell/BuildWeek2/blob/main/project.ipynb)
