@@ -23,21 +23,26 @@ The President of the United States has the power, through the Federal Emergency 
 ![FEMA](/assets/img/FEMA.jpg){:class="img-responsive"}
 
 
-### The process
+### Wrangling the data
 
-I was able to source my original data from [Kaggle](https://www.kaggle.com/open-powerlifting/powerlifting-database).  This powerlifting database, maintained by the OpenPowerlifting project which aims to create an open archive of the world's powerlifting data, contains data from over 22,000 meets and 412,000 lifters from competitions worldwide.  Because the Wilks formula makes use of the total weight lifted, I removed lifters that did not perform all three of the standardized lifts (squat, bench press and deadlift).  I also only accounted for lifters that performed un-equipped or 'raw' lifts, simply to maintain consistency.  A few rows of my cleaned data can be seen below:  
+I was able to source my FEMA data from [Kaggle](https://www.kaggle.com/fema/federal-disasters).  This dataset included a feature called 'Declaration Date' which included a list of dates on which the President declared an emergency.  I pulled out this column and eventually used it to create my target vector (a categorical column with 'Yes' or 'No' for if an emergency was declared on a specific day).  I also sourced my precious metals data from [Kaggle](https://www.kaggle.com/lsind18/daily-london-metal-fix-prices).  This dataset contained the AM and PM London Fix Prices for gold, platinum, and palladium.  I used these columns to engineer new features:  the daily percentage change of of each precious metal.  I then sourced stock data from Yahoo Finance.  The stocks I chose and my reasoning for each are as follows:
 
-![Cleaned Data](/assets/img/Screen Shot 2020-09-25 at 10.12.40 AM.png){:class="img-responsive"}
+- Home Depot:  home improvement, supplier of tools and construction products
+- Lowe's:  home improvement, supplier of tools and construction products
+- Walmart:  sells food, water and clothing, all needed items during a natural disaster 
+- Bank of America:  increase stress on the economy, supply chain distruption 
+- American International Group (AIG):  insurancy company
+- Halliburton:  construction company
 
-In order to determine the latitude of each meet location, as can be seen in the two columns on the right, I manually looked up latitudes for 116 country states, rounded these values to the nearest whole integer, and then created a function that would add them to all 273,373 rows in my cleaned dataframe.  I then calculated the correlation coefficient between the values for Latitude (in degrees) and the Wilks scores.  With Wilks on the y-axis and Latitude on the x-axis, a negative linear correlation would be indicative of a decreasing Wilks score with increasing latitude.  My calculated correlation coefficient was -0.044, suggesting a very weak negative linear relationship.  Because this value is within -0.1 to 0.1, I cannot significantly say there is a linear relationship present between the two variables.  
+From each of these datasets, I engineered a new feature for the daily percentage change of each stock based on open and close prices.  Keeping only the percentage change of each commodity or stock, I merged all the datasets on the date columns.  Lastly, I engineered a new feature for each column of the merged dataframe that denoted if a large change in percentage had occurred on that day.  I defined 'large change' as follows:  If the percentage change at a single observation was greater than the average of the positive values in that column OR less than the average of the negative values in that column, return 1. Otherwise, return 0.  A value of 1 indicated a large change had occurred.  
 
-But, maybe there is some bias present in my data.  According to [Robert Frederick](http://www.strongur.io/can-we-do-better-than-wilks-absolutely/) in his blog post, the Wilks scoring system, although partially successful, still seems to favor absolute strength.  In order to account for any gender or age bias, I isolated my data based on the most prevalent gender and age class (Males aged 24-34 years old) in the dataset.  To account for any bias between the northern and southern hemispheres due to Earth's tilt, I took it a step further and isolated my data by the most prevalent hemisphere (North).  My newly calculated correlation coefficients were as follows:
 
-- Only Males:  -0.054
-- Only Males aged 24-34 years old:  -0.019
-- Only Males aged 24-34 years old in the Northern Hemisphere:  -0.027
+### My baseline:
 
-Although negative, the values are not significant enough to clearly say that powerlifters receive an advantage for competing closer to the equator.  
+![baseline](/assets/img/Baseline.png){:class="img-responsive"}
+
+
+### 
 
 
 ![Scatterplot](/assets/img/All_Datapoints.png){:class="img-responsive"}
