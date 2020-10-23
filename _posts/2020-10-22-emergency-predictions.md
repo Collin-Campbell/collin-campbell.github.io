@@ -11,16 +11,19 @@ tags: [Disasters, stocks, metals, FEMA]
 
 ### Did you know?
 
-<img align="left" style="float:left; padding-right:10px" src="/assets/img/istockphoto-841956772-170667a.jpg"> The surface of the Earth at the equator spins roughly *1,000 miles per hour*.  As a result of this insane rotation, Earth actually bulges out at the equator, forming an oblate spheroid rather than a sphere.  Meaning, the diameter around the equator is larger than the diameter connecting the poles.  And so, a person standing on the surface at the equator, being further from the center of the Earth than a person standing on the surface at the poles, experiences less gravity (approximately 0.5% less gravity, in fact).  With this is mind, I sought out to determine whether or not powerlifters benefit from this information.  **Are powerlifters able to lift more weight (and score higher) at locations closer to the Equator?  Is there a correlation between lower latitudes (closer to the Equator) and higher scores in competition?**  
+Often, the occurrence of major events are used to predict a future change in the prices of certain goods.  For instance, consider a presidential candidate who supports clean energy.  If this candidate were to win, we might expect an increase in the stock prices of companies associated with green technology as well as a decrease in the prices of commodities associated with non-renewable energy, such as crude oil.  But, could the opposite be true as well?  Could the daily percentage change of certain stocks and precious metals be indicative of the occurrence of a major event, such as a natural disaster?  For example, consider a Category 5 hurricane strikes the State of Florida and causes severe damage to local infrastructure.  In response, the President of the United States declares an emergency.  On that same day, the stock prices of insurance companies that insure the buildings in the affected area plummet.  **Could the change in prices       
+
+On any given day,   This declaration          **Are powerlifters able to lift more weight (and score higher) at locations closer to the Equator?  Is there a correlation between lower latitudes (closer to the Equator) and higher scores in competition?**  
 
 
-### Powerlifting, a quick overview
+### What constitutes a major disaster?
 
 Powerlifting began all the way back in Ancient China and Greece, where men would lift stones to display their strength and see who could lift the most.  At the time and up through the 1950s, powerlifting was akin to the strongman competition today, meaning it involved various "odd lifts" for competition.  Eventually, the sport evolved and the lifts became standardized to the current three:  squat, bench press, and deadllift.  
 
 {: .box-note}
-**Fun Fact:** Modern powerlifters are able to perform lifts with or without equipment (such as knee wraps and other supportive wear).  Un-equipped lifts are also referred to as 'raw' lifts.
+**What constitutes a major disaster?** the President of the United States has the power, through the Federal Emergency Management Agency (FEMA), to declare an emergency or major disaster.
 
+### What prices I used
 As the sport grew and became more inclusive, it became apparent that who could simply "lift the most" was an inadequate measuring stick.  People come in all shapes and sizes, and so the need arose to develop a way to compare relative strength.  Initially, this began simply by dividing the amount lifted by an individual's body mass.  This ratio was then used to compare individual lifters.  Over time, the measuring stick has evolved to statistical models.  Currently, the official formula used in powerlifting is the Wilks formula.  *In order to calculate the Wilks Coefficient, the total weight lifted (in kg) is multiplied by the Coefficient to find the standard amount lifted normalized across all body weights*:     
 
 ![Wilks](/assets/img/Screen Shot 2020-09-25 at 9.47.51 AM.png){:class="img-responsive"}
