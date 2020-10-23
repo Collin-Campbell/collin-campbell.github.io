@@ -39,7 +39,7 @@ From each of these datasets, I engineered a new feature for the daily percentage
 
 ### My baseline:
 
-Baseline Accuracy: 0.7701062215477997
+'No' was the majority class with a baseline accuracy of: 0.7701062215477997
 
 ![baseline](/assets/img/Baseline.png){:class="img-responsive"}
 
@@ -64,9 +64,17 @@ The XGB boost model was best fitting, but the Random Forest model scored the hig
 
 ### Conclusion:
 
+Percentage change in gold was the most important feature, as shown in the following plot: 
+
 ![permutation importances](/assets/img/Perm_imp.png){:class="img-responsive"}
 
+
+As the daily percentage change in gold approached 0, it became more likely that an emergency was not declared.  As the daily percentage change in gold surpassed 2, the likelihood of a declared emergency increased. 
+
 ![PDP feature](/assets/img/PDP_feature.png){:class="img-responsive"}
+
+
+As shown in the PDP interaction plot, the percentage change in gold had a much greater impact on the predicted outcome of the Random Forest model than the percentage change in Home Depot stock.  The impact was more relevant at large negative and large positive changes, with the large positive changes being most important.
 
 ![PDP interact](/assets/img/PDP_interact.png){:class="img-responsive"}
 
@@ -77,7 +85,7 @@ The XGB boost model was best fitting, but the Random Forest model scored the hig
 
 ![confusion matrix](/assets/img/Conf_mat.png){:class="img-responsive"}
 
-- The major fault in my reasoning:  the time at which an emergency is declared depends on when the local government applies for assistance.  Meaning, the declaration could occur days/weeks after the actual catastrophic event.
+- The major fault in my reasoning:  the time at which an emergency is declared depends on when the local government applies for assistance.  Meaning, the declaration could occur days or even weeks after the actual catastrophic event.  Additionally, other variables could impact the prices of metals or stocks.  For instance, maybe the 
 
 
 Link to my work [here](https://github.com/Collin-Campbell/BuildWeek2/blob/main/project.ipynb)
