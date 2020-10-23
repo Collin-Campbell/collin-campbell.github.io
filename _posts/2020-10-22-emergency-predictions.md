@@ -85,7 +85,7 @@ As shown in the PDP interaction plot, the percentage change in gold had a much g
 
 ![confusion matrix](/assets/img/Conf_mat.png){:class="img-responsive"}
 
-- The major fault in my reasoning:  the time at which an emergency is declared depends on when the local government applies for assistance.  Meaning, the declaration could occur days or even weeks after the actual catastrophic event.  Additionally, other variables could impact the prices of metals or stocks.  For instance, maybe the 
+- The major fault in my reasoning:  the time at which an emergency is declared depends on when the local government applies for assistance.  Meaning, the declaration could occur days or even weeks after the actual catastrophic event.  Additionally, other variables could impact the prices of metals or stocks.  For instance, maybe there was a newly discovered use for palladium that caused a drastic increase in its price. 
 
 
 Link to my work [here](https://github.com/Collin-Campbell/BuildWeek2/blob/main/project.ipynb)
