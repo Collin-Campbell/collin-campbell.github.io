@@ -11,15 +11,16 @@ tags: [Disasters, stocks, metals, FEMA]
 
 ### The Theory:
 
-Often, the occurrence of major events are used to predict a future change in the prices of certain goods.  For instance, consider a presidential candidate who supports clean energy.  If this candidate were to win, we might expect an increase in the stock prices of companies associated with green technology as well as a decrease in the prices of commodities associated with non-renewable energy, such as crude oil.  But, could the opposite be true as well?  Could the daily percentage change of certain stocks and precious metals be indicative of the occurrence of a major event, such as a natural disaster?  For example, consider the following event:  a Category 5 hurricane strikes the State of Florida and causes severe damage to the local infrastructure.  In response, the President of the United States declares an emergency.  Over the course of that day, the stock prices of insurance companies that insure buildings in the affected area plummet significantly.  Hypothetically, if this were true, we could use these significant changes in prices to predict whether or not the President declared an emergency on a specified date. 
+Often, the occurrence of major events are used to predict a future change in the prices of certain goods.  For instance, consider a presidential candidate who supports clean energy.  If this candidate were to win, we might expect an increase in the stock prices of companies associated with green technology as well as a decrease in the prices of commodities associated with non-renewable energy, such as crude oil.  But, could the opposite be true as well?  Could the daily percentage change of certain stocks and precious metals be indicative of the occurrence of a major event, such as a natural disaster?  For example, consider the following event:  a Category 5 hurricane strikes the State of Florida and causes severe damage to the local infrastructure.  In response, the President of the United States declares an emergency.  Over the course of that day, the stock prices of insurance companies that insure buildings in the affected area plummet significantly.  Hypothetically, if this were true, we could use these significant changes in prices to predict whether or not the President declared an emergency. 
+
 
 {: .box-note}
-**What constitutes a major disaster?** The President of the United States has the power, through the Federal Emergency Management Agency (FEMA), to declare a major disaster when it is determined that State or Native American Tribal governments require supplemental emergency services in order to avert the threat of a catastrophe.  The disaster must be of such severity and magnitude that the the response is beyond the capabilities of the local government.  Major disasters can be declared for any natural event, including any:  hurricane, tornado, storm, high water, wind-driven water, tidal wave, tsunami, earthquake, volcanic eruption, landslide, mudslide, snowstorm, or drought, or, regardless of cause, fire, flood, or explosion.    
+**What constitutes a major disaster?** 
 
-### What prices I used
-As the sport grew and became more inclusive, it became apparent that who could simply "lift the most" was an inadequate measuring stick.  People come in all shapes and sizes, and so the need arose to develop a way to compare relative strength.  Initially, this began simply by dividing the amount lifted by an individual's body mass.  This ratio was then used to compare individual lifters.  Over time, the measuring stick has evolved to statistical models.  Currently, the official formula used in powerlifting is the Wilks formula.  *In order to calculate the Wilks Coefficient, the total weight lifted (in kg) is multiplied by the Coefficient to find the standard amount lifted normalized across all body weights*:     
+The President of the United States has the power, through the Federal Emergency Management Agency (FEMA), to declare a major disaster when it is determined that State or Native American Tribal governments require supplemental emergency services in order to avert the threat of a catastrophe.  The disaster must be of such severity and magnitude that the the response is beyond the capabilities of the local government.  Major disasters can be declared for any natural event, including any:  ***hurricane, tornado, storm, high water, wind-driven water, tidal wave, tsunami, earthquake, volcanic eruption, landslide, mudslide, snowstorm, or drought, or, regardless of cause, fire, flood, or explosion.***    
+    
 
-![Wilks](/assets/img/Screen Shot 2020-09-25 at 9.47.51 AM.png){:class="img-responsive"}
+![FEMA](/assets/img/FEMA.jpg){:class="img-responsive"}
 
 
 ### The process
@@ -55,4 +56,4 @@ Although negative, the values are not significant enough to clearly say that pow
 
 Link to my work [here](https://github.com/Collin-Campbell/BuildWeek2/blob/main/project.ipynb)
 
-![FEMA](/assets/img/FEMA.jpg){:class="img-responsive"}
+![ship](/assets/img/ship.jpg){:class="img-responsive"}
